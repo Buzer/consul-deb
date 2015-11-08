@@ -2,6 +2,9 @@
 
 ## Overview
 
+This is fork of [bcandrea/consul-deb](https://github.com/bcandrea/consul-deb) due
+to project inactivity.
+
 This project can be used to create a debian package for any tag in the
 [Consul](http://www.consul.io) git repository on github
 (https://github.com/hashicorp/consul). A simple
@@ -14,11 +17,11 @@ the `VERSION` variable, e.g.
     $ make VERSION=0.3.0
 
 Ubuntu packages built regularly with this Makefile are available at
-[this Launchpad PPA](https://launchpad.net/~bcandrea/+archive/ubuntu/consul). To
+[this Launchpad PPA](https://launchpad.net/~buzer/+archive/ubuntu/consul). To
 install the latest Consul packages on your Ubuntu system you just need to add the
 repository and update the local sources:
 
-    $ sudo apt-add-repository ppa:bcandrea/consul
+    $ sudo apt-add-repository ppa:buzer/consul
     $ sudo apt-get update
     $ sudo apt-get install consul consul-web-ui
 
